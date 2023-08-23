@@ -263,13 +263,13 @@ function EditorBody({storeAt, index}) {
                 disabled={executing}
                 disabled={notOwner}
             >
-                <MenuItem value={"py"}>Python3</MenuItem>
-                <MenuItem value={"c"}>C</MenuItem>
+                {/* <MenuItem value={"py"}>Python3</MenuItem>
+                <MenuItem value={"c"}>C</MenuItem> */}
                 <MenuItem value={"cpp"}>C++</MenuItem>
-                <MenuItem value={"java"}>Java</MenuItem>
+                {/* <MenuItem value={"java"}>Java</MenuItem>
                 <MenuItem value={"cs"}>C#</MenuItem>
                 <MenuItem value={"go"}>Golang</MenuItem>
-                <MenuItem value={"js"}>NodeJS</MenuItem>
+                <MenuItem value={"js"}>NodeJS</MenuItem> */}
             </Select>
         );
     }

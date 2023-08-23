@@ -255,22 +255,6 @@ function Home() {
                         >
                             New Code
                         </Button>
-                        {/* <Button
-                            className={classes.button}
-                            onClick={() => {
-                                window.open("https://github.com/Jaagrav/CodeX-API", "_blank");
-                            }}
-                        >
-                            CodeX API
-                         </Button> */}
-                        {/* <Button
-                            className={classes.button}
-                            onClick={() => {
-                                window.open("https://github.com/Jaagrav/CodeX", "_blank");
-                            }}
-                        >
-                            GitHub
-                        </Button> */}
                     </ButtonGroup>
                 </div>
                 <div className={classes.codeblocks}>
