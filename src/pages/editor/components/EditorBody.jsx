@@ -228,7 +228,7 @@ function EditorBody({storeAt, index}) {
 
         var config = {
             method: "post",
-            url: "http://94.131.99.105:3000",
+            url: "https://94.131.99.105:3000",
             headers: {
                 "Content-Type": "application/json",
             },
