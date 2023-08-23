@@ -228,7 +228,7 @@ function EditorBody({storeAt, index}) {
 
         var config = {
             method: "post",
-            url: "https://94.131.99.105:3000",
+            url: "https://ec2-54-207-228-53.sa-east-1.compute.amazonaws.com",
             headers: {
                 "Content-Type": "application/json",
             },
