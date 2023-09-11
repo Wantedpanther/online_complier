@@ -228,7 +228,7 @@ function EditorBody({storeAt, index}) {
 
         var config = {
             method: "post",
-            url: "http://localhost:3000",
+            url: "http://ec2-54-207-228-53.sa-east-1.compute.amazonaws.com/api",
             headers: {
                 "Content-Type": "application/json",
             },
@@ -237,6 +237,7 @@ function EditorBody({storeAt, index}) {
 
         axios(config)
             .then(function (response) {
+                console.log(response.data)
                 setExecuting(false);
                 if (response.data?.output) setOutputValue(response.data.output);
                 if (response.data?.error) {
@@ -245,7 +246,7 @@ function EditorBody({storeAt, index}) {
             })
             .catch(function (error) {
                 setExecuting(false);
-                setOutputValue("Network Error");
+                setOutputValue(error);
             });
     };
 
